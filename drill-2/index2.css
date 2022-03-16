@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+
+.firstbox {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: block;
+    background-color: white;
+    border: 1px solid black;
+    height: 20vh;
+    width: 70vw;
+    
+}
+
+.secondbox {
+    box-sizing: block;
+    background-color: white;
+    border: 1px solid black;
+    height: 20vh;
+    width: 70vw;
+    margin-top: 250px;
+}
+
+.bar {
+    box-sizing: block;
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 20px;
+    height: 50px;
+}
+
+.rectangle {
+    background-color: green;
+    border: 1 px solid black;
+    width: 250px;
+    height: 85%;
+    left: 40px;
+}
+
+
+.circle {
+    background-color: lightskyblue;
+    border: 1 px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 85%;
+}
